@@ -11,7 +11,7 @@
 #' @md
 #' @export
 word <- function(...){
-  templ <- system.file("rmarkdown", "templates", "word", "resources", "template.docx", package = "kevins.templates")
+  templ <- system.file("rmarkdown", "templates", "chicagoad", "Resources", "template.docx", package = "kevins.templates")
   rmarkdown::word_document(reference_docx = templ,
                            ...)
 }
@@ -19,6 +19,6 @@ word <- function(...){
 #' @rdname word
 #' @export
 templ_word <- function(){
-  print(system.file("rmarkdown", "templates", "word", "resources", "template.docx", package = "kevins.templates"))
+  print(system.file("rmarkdown", "templates", "chicagoad", "Resources", "template.docx", package = "kevins.templates"))
 }
 #'
