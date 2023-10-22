@@ -4,7 +4,7 @@ author: "Kevin Navarrete-Parra"
 date: "`r Sys.Date()`"
 output: kevins.templates::word
 bibliography: refs.bib
-csl: apsa.csl
+csl: chicago-author-date.csl
 ---
 
 ```{r setup, include=FALSE}
