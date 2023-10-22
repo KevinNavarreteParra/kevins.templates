@@ -1,12 +1,10 @@
 Package: kevins.templates
-Title: What the Package Does (One Line, Title Case)
+Title: Provides RMD Templates for Class Essays
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Kevin", "Navarrete-Parra", , "navark4@unlv.nevada.edu", role = c("aut", "cre")
+Description: This package will serve as a home for any RMD templates I'll ever need or create. 
+License: use_mit_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
