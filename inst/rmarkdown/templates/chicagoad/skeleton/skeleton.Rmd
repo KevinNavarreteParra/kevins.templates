@@ -1,8 +1,12 @@
 ---
-title: "Template Title"
-author: "Your Name"
-date: "The Date"
-output: output_format
+title: "Your Title Here"
+author: "Kevin Navarrete-Parra"
+date: "October 21, 2023"
+output:
+  word_document:
+    reference_docx: path/to/your/reference.docx
+bibliography: refs.bib
+csl: apsa.csl
 ---
 
 ```{r setup, include=FALSE}
