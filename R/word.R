@@ -10,7 +10,6 @@
 #' @param ... Arguments to [`rmarkdown::word_document`].
 #' @md
 #' @export
-#'
 word <- function(...){
   templ <- system.file("rmarkdown", "templates", "word", "resources", "template.docx", package = "kevins.templates")
   rmarkdown::word_document(reference_docx = templ,
