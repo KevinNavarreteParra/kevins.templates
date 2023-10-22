@@ -2,7 +2,7 @@
 title: "Your Title Here"
 author: "Kevin Navarrete-Parra"
 date: "`r Sys.Date()`"
-output: kevin.templates::word
+output: kevins.templates::word
 bibliography: refs.bib
 csl: apsa.csl
 ---
