@@ -2,9 +2,7 @@
 title: "Your Title Here"
 author: "Kevin Navarrete-Parra"
 date: "`r Sys.Date()`"
-output:
-  word_document:
-    reference_docx: ~/Desktop/kevins.templates/inst/rmarkdown/templates/chicagoad/Resources/word_template.docx
+output: stevetemplates::word
 bibliography: refs.bib
 csl: apsa.csl
 ---
