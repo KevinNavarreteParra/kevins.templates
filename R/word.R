@@ -21,3 +21,4 @@ word <- function(...){
 templ_word <- function(){
   print(system.file("rmarkdown", "templates", "word", "resources", "template.docx", package = "kevins.templates"))
 }
+#'
