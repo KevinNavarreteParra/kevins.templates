@@ -1,4 +1,4 @@
-name: chicago_ad
+name: An RMD Template for Chicago Author Date
 description: >
-   A description of the template
-create_dir: FALSE
+   A template for creating R Markdown documents that use the Chicago Author Date citation style.
+create_dir: TRUE
