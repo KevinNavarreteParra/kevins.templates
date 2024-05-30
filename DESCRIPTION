@@ -4,10 +4,11 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Kevin", "Navarrete-Parra", , "navark4@unlv.nevada.edu", role = c("aut", "cre"))
 Description: This package will serve as a home for any RMD templates I'll ever need or create. 
-License: use_mit_license()
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: rmarkdown
