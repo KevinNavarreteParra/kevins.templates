@@ -16,7 +16,7 @@ A PDF document with the Chicago AD template
 Generate a PDF Document with the Chicago AD Template
 }
 \details{
-Thank you to Steve Miller's {stevetemplates} library for providing a baseline for this function.
+Thank you to Steve Miller's \code{stevetemplates} library for providing a baseline for this function.
 }
 \examples{
 try(rmarkdown::render("path/to/your.Rmd", kevins.templates::chicagoad()))

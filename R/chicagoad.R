@@ -8,7 +8,7 @@
 #' @importFrom rmarkdown pdf_document
 #'
 #' @details
-#' Thank you to Steve Miller's {stevetemplates} library for providing a baseline for this function.
+#' Thank you to Steve Miller's `stevetemplates` library for providing a baseline for this function.
 #'
 #'
 #' @examples
