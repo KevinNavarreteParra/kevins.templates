@@ -1,0 +1,71 @@
+% Turabian Formatting for Research Papers Template, 2018/08/06
+%
+% Developed using the turabian-formatting package (2018/08/01), available through CTAN: 
+% -------------------------------------------
+% http://www.ctan.org/pkg/turabian-formatting
+% -------------------------------------------
+%
+% Additional document class formatting options:
+%
+% raggedright: ragged right formatting without hyphenations
+% authordate: support for the author-date citation style
+% endnotes: support for endnotes
+
+
+% If you want the raggedright or endnotes formatting options, you can stipulate that in brackets here. Each additional formatting option is delimited by commas.
+\documentclass[authordate]{turabian-researchpaper}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, ellipsis}
+\usepackage{lipsum}
+
+% Specify paper size with geometry package
+\usepackage[pass, letterpaper]{geometry}
+
+% For citations, use the biblatex-chicago package
+\usepackage{biblatex-chicago}
+\addbibresource{works-cited.bib}
+
+% Information for title page
+\title{Title}
+\subtitle{Subtitle}
+\author{Kevin Navarrete-Parra}
+\course{Political Science 7--}
+\date{\today}
+
+
+\begin{document}
+
+% This line generates the title page from the information above. 
+\maketitle
+
+% \tableofcontents generates a toc 
+
+% \section, \subsection, etc useful for essay sections
+
+% use \begin{quotation} and \end{quotation} for block quotes
+\section{Introduction}
+
+\lipsum[1]
+
+\section{Body 1}
+\lipsum[1-5]
+
+\section{Body 2}
+
+\lipsum[1][1-2]
+\begin{quotation}
+    \lipsum[10][1-4]\autocite{test-doc}
+\end{quotation}
+
+\subsection{Body 2.1}
+\lipsum[1-3]
+
+\section{Conclusion}
+\lipsum[1]
+
+\clearpage
+\printbibliography
+
+\end{document}
