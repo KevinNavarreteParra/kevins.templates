@@ -2,7 +2,5 @@
 
 export(chicagoad)
 export(draft_chicago)
-export(templ_word)
-export(word)
 importFrom(rmarkdown,draft)
 importFrom(rmarkdown,pdf_document)
