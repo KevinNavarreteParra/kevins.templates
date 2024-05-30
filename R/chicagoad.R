@@ -17,6 +17,6 @@ chicagoad <- function(...){
   template <- system.file("rmarkdown", "templates", "chicago_ad", "Resources", "template.docx",
                           package = "kevins.templates")
   rmarkdown::pdf_document(template = template,
-                          latex_engine = "xelatex",
+                          latex_engine = "pdflatex",
                           ...)
 }
