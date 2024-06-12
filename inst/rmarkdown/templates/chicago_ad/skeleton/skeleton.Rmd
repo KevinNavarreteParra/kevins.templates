@@ -1,9 +1,21 @@
 ---
 title: "Template Title"
-author: "Your Name"
-date: "The Date"
-output: output_format
+author:
+  name: Kevin Navarrete-Parra
+  affiliation: University of Nevada, Las Vegas
+  email: navark4@unlv.nevada.edu
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  bookdown::pdf_document2:
+    template: paper_template.tex
+    keep_tex: true
 bibliography: works-cited.bib
+header-includes:
+   - \usepackage{dcolumn}
+   - \usepackage{amsmath}
+link-citations: true
+nocite: |
+  @*
 ---
 
 ```{r setup, include=FALSE}
