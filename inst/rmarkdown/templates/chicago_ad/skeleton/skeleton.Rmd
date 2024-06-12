@@ -19,7 +19,11 @@ nocite: |
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, 
+                      message = FALSE, 
+                      fig.width = 5,
+                      fig.height = 5,
+                      warning = FALSE)
 ```
 
 # Adding an RMarkdown Template
