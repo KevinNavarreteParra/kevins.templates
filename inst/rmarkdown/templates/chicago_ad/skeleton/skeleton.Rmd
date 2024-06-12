@@ -7,8 +7,8 @@ author:
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
   bookdown::pdf_document2:
-    template: paper_template.tex
     keep_tex: true
+    toc: false
 bibliography: works-cited.bib
 header-includes:
    - \usepackage{dcolumn}
