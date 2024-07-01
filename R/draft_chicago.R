@@ -43,5 +43,5 @@ draft_chicago <- function(name, ...) {
   # Copy the resources files to the resources subdirectory in the destination directory
   file.copy(resources_files, file.path(destination_dir, "resources"), overwrite = TRUE, recursive = TRUE)
 
-  message("Draft created successfully with all required files.")
+  message("Draft created successfully with all required files. Good luck and happy writing!")
 }
