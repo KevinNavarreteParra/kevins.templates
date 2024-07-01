@@ -2,5 +2,7 @@
 
 export(chicagoad)
 export(draft_chicago)
+importFrom(lifecycle,badge)
+importFrom(lifecycle,deprecate_stop)
 importFrom(rmarkdown,draft)
 importFrom(rmarkdown,pdf_document)

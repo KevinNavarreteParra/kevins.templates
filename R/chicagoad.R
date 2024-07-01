@@ -16,6 +16,7 @@
 #'
 #' This function was deprecated because it was originally intended for use with Word, not PDF, which has much more limited functionality for templates. Please use `draft_chicago` instead.
 #'
+#' @keywords internal
 #'
 #' @examples
 #' try(rmarkdown::render("path/to/your.Rmd", kevins.templates::chicagoad()))

@@ -13,7 +13,9 @@ chicagoad(...)
 A PDF document with the Chicago AD template
 }
 \description{
-Generate a PDF Document with the Chicago AD Template
+#' \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
+
+This function was deprecated because it was originally intended for use with Word, not PDF, which has much more limited functionality for templates. Please use \code{draft_chicago} instead.
 }
 \details{
 Thank you to Steve Miller's \code{stevetemplates} library for providing a baseline for this function.
@@ -21,3 +23,4 @@ Thank you to Steve Miller's \code{stevetemplates} library for providing a baseli
 \examples{
 try(rmarkdown::render("path/to/your.Rmd", kevins.templates::chicagoad()))
 }
+\keyword{internal}
