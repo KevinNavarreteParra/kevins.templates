@@ -44,7 +44,3 @@ draft_chicago <- function(name, ...) {
 
   message("Draft created successfully with all required files.")
 }
-
-# Example usage:
-# draft_chicago("my_new_document")
-
