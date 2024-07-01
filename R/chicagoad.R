@@ -12,7 +12,7 @@
 #' Thank you to Steve Miller's `stevetemplates` library for providing a baseline for this function.
 #'
 #' @description
-#' #' `r lifecycle::badge("deprecated")`
+#' `r lifecycle::badge("deprecated")`
 #'
 #' This function was deprecated because it was originally intended for use with Word, not PDF, which has much more limited functionality for templates. Please use `draft_chicago` instead.
 #'

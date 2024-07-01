@@ -13,7 +13,7 @@ chicagoad(...)
 A PDF document with the Chicago AD template
 }
 \description{
-#' \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
 
 This function was deprecated because it was originally intended for use with Word, not PDF, which has much more limited functionality for templates. Please use \code{draft_chicago} instead.
 }
