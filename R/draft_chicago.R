@@ -29,6 +29,7 @@ draft_chicago <- function(name, ...) {
 
   # List all files in the skeleton and resources directories
   skeleton_files <- list.files(skeleton_dir, full.names = TRUE)
+  skeleton_files <- skeleton_files[basename(skeleton_files) != "skeleton.Rmd"]
   resources_files <- list.files(resources_dir, full.names = TRUE)
 
   # Copy the skeleton files to the destination directory
